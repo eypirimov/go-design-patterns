@@ -7,9 +7,9 @@ type singleton struct {
 
 var instance *singleton
 
-func GetInstance() *singleton  {
+func GetInstance() *singleton {
 	if instance == nil{
-		instance=new(singleton)
+		instance =new(singleton)
 	}
 	return instance
 }
